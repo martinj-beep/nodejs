@@ -1,0 +1,19 @@
+{
+  "name": "praktine_dalis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "mersenne-twister": "^1.1.0",
+    "moment": "^2.30.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+  {
+    "type": "module"
+  }
+}
