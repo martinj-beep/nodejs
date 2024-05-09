@@ -1,7 +1,7 @@
 import Tablet from "../models/Tablet.js";
 
 export async function addNewTablet(req, res) {
-    const { price, brand year, model, screenSize } = req.body
+    const { price, brand, year, model, screenSize } = req.body
 
     if (!price || !brand || !year || !model || !screenSize) {
         res.status(400).json({ message: "info missing in body"})
