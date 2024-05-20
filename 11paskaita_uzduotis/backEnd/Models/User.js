@@ -8,4 +8,4 @@ const userSchema = new mongoose.Schema({
     service_id: String
 })
 
-export default mongoose.model("Service", serviceSchema)
+export default mongoose.model("User", userSchema)
