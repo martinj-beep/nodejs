@@ -30,7 +30,7 @@ export async function addPhoneToPerson(req, res) {
 export async function getPeople(req, res) {
     const people = await Person.find();
 
-    req.json(people);
+    res.json(people);
 }
 
 export async function getPeopleWithPhones(req, res) {
