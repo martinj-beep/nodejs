@@ -17,7 +17,7 @@ export async function addPerson(req, res) {
 export async function addPhoneToPerson(req, res) {
     const { personId, phoneId } = req.params;
 
-    const person = await PersonfindById(personId);
+    const person = await Person.findById(personId);
     const phone = await Phone.findById(phoneId); // kreipsimes i dvi kolekcijas kad pasiimtume is ju irasus pagal ID;
 
     person.phone.push(phone) // atnaujinam zmogaus objekta su pasirinktu telefonu
